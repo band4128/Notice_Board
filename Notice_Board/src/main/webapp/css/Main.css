@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+a {
+	color: black;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100px;
+	border-bottom: 5px solid black;
+	text-align: center;
+	background-color: #FFD700;
+}
+
+.header>h1 {
+	font-size: 40px;
+}
+
+.session {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.notice_board_top {
+	width: 100%;
+	height: 90px;
+	text-align: center;
+}
+
+.notice_board_top>button {
+	cursor: pointer;
+	margin-top: 40px;
+	width: 120px;
+	height: 50px;
+	font-size: 25px;
+	border: 4px solid black;
+	border-radius: 15px;
+	background-color: skyblue;
+}
+
+.notice_board_mid {
+	width: 100%;
+	height: 100%;
+	margin: 60px auto;
+}
+
+.nbm {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 40px;
+	border-bottom: 2px solid black;
+}
+
+.nbm_number {
+	text-align: center;
+	width: 5%;
+	height: 50px;
+	border-right: 2px solid black;
+}
+
+.nbm_title {
+	text-align: center;
+	width: 15%;
+	height: 50px;
+	border-right: 2px solid black;
+}
+
+.nbm_name {
+	text-align: center;
+	width: 15%;
+	height: 50px;
+	border-right: 2px solid black;
+}
+
+.nbm_text {
+	text-align: center;
+	width: 60%;
+	height: 50px;
+	text-align: center;
+}
+
+.sub_nbm_content {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	margin: 20px auto;
+	font-size: 20px;
+}
+
+.sub_nbm_table {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+}
+
+.sub_nbm_number {
+	text-align: center;
+	width: 5%;
+	height: 50px;
+	border-right: 2px solid black;
+}
+
+.sub_nbm_title {
+	text-align: center;
+	width: 15%;
+	height: 50px;
+	border-right: 2px solid black;
+}
+
+.sub_nbm_name {
+	text-align: center;
+	width: 15%;
+	height: 50px;
+	border-right: 2px solid black;
+}
+
+.sub_nbm_text {
+	text-align: center;
+	width: 60%;
+	height: 50px;
+	text-align: center;
+}
+
+.delete_update {
+	display: flex;
+	width: 120px;
+	height: 50px;
+	justify-content: space-around;
+}
+
+.delete, .update{
+	width: 50px;
+	height: 40px;
+	font-size: 20px;
+	border: 3px solid black;
+	border-radius: 100px;
+	background-color: pink;
+	cursor: pointer;
+}
+
+.nbm_title>p, .nbm_text>p, .nbm_name>p, .nbm_number>p {
+	font-size: 25px;
+}
+
+.sub_nbm_title>a, .sub_nbm_text>p, .sub_nbm_name>p, .sub_nbm_number>p {
+	font-size: 25px;
+}
